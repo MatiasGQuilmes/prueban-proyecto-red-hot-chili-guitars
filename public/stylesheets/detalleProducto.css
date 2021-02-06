@@ -5,3 +5,35 @@
    box-sizing: border-box;
 }
 
+
+body{
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.container-main{
+    background-image:   linear-gradient(#f6eec95b,#f6eec96b),url(/img/fondos/texturas_19.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;  
+}
+
+.subcontainer-main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+   
+}
+
+.title-main{
+    background: linear-gradient(90deg, rgba(240,124,77,1) 0%, rgba(93,48,48,1) 100%);
+    width: 100vw;
+}
